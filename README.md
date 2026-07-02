@@ -5,9 +5,22 @@ HGC内需要嫁接YOLOv8 Lite，可根据注释实现
 其余组件在代码内有详尽注释，虽然看起来杂乱，但是稍加整理后都可以使用
 最终目的是实现目标级建筑损伤检测的三级分类
 
+2026/7/2更新
+数据集完全公开，在YOLO旧标签的基础上进行了人工更新，实现对象级的建筑损伤变化检测。
+数据集下载链接：https://zenodo.org/records/20815559
+课题组主页：https://smartstructlab.github.io/lab/#home
+
 This project is the implementation code of OCD-BDA structure
 OCD-BDA is divided into three parts: YOLOv8 Lite; R50M2Net；HGC
 YOLOv8 Lite is mainly based on YOLOv8 implementation, so it is not uploaded
 YOLOv8 Lite needs to be integrated into HGC, which can be implemented according to the comments
 The rest of the components have detailed comments in the code, although they look messy, they can all be used after a little organization
 The ultimate goal is to achieve three-level classification of target level building damage detection
+
+Updated on July 2, 2026
+
+The dataset has been fully released. Based on the previous YOLO labels, manual updates were performed to enable object-level building damage change detection.
+
+Dataset download link: https://zenodo.org/records/20815559
+
+Research group homepage: https://smartstructlab.github.io/lab/#home
